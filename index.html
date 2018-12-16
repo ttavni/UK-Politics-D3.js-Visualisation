@@ -1,0 +1,463 @@
+<html>
+    <head>
+    <title> Timeline </title>
+    <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+    <meta name='robots' content='noodp' />
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <link rel='alternate' type='application/rss+xml' title='Lutz Roeder' href='https://feeds.feedburner.com/lutzroeder' />
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700|Merriweather:300,300i,700' />
+
+    <style type='text/css'>
+    html {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    }
+    body { margin: 85px 0 85px 0; }
+    .post { max-width: 1200px !important; margin: 0 auto; box-sizing: border-box; }
+    .header { margin-bottom: 30px; }
+    .header .image { display: table-cell; }
+    .header .image .portrait { border: 0; border-radius: 50%; width: 36px !important; height: 36px !important; vertical-align: middle; }
+    .header .description { display: table-cell; padding-left: 10px; vertical-align: middle; }
+    .header .author { color: #1a1a1a; font-size: 14px; line-height: 1.4; text-decoration: none; }
+    .header .date { display: block; font-size: 12px; line-height: 16px; color: #8f8f8f; }
+    .post h1 { font-family: "Merriweather Sans", "Open Sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; font-weight: bold; font-size: 56px; line-height: 41px; letter-spacing: -0.06em; margin: 30px 0 10px -2.25px; }
+    .post h2 { font-family: "Merriweather Sans", "Open Sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; font-weight: bold; font-size: 58px; line-height: 34px; letter-spacing: -0.06em; margin: 30px 0 10px -2.25px; }
+    .post h3 { font-family: "Merriweather Sans", "Open Sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; font-weight: bold; font-size: 50px; line-height: 34px; letter-spacing: -0.06em; margin: 30px 0 10px -2.25px; }
+    .post .content { font-family: "Merriweather", Georgia, Cambria, "Times New Roman", Times, serif; font-size: 18px; line-height: 1.88; letter-spacing: 0.01em; word-break: break-word; word-wrap: break-word; }
+    .post .content p { margin: 10px 0 16px 0; }
+    .post .content a, .post p a:visited, .post p a:link, .post p a:active { color: inherit; text-decoration: none; background-size: 2px 2px; background-position: 0 22px; background-repeat: repeat-x; background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.6) 50%); }
+    .post .content code { font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", Courier, monospace; font-size: 16px; background-color: #f3f3f3; color: #333333; padding: 4px; border-radius: 3px; }
+    .post .content pre { font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", Courier, monospace; font-size: 16px; line-height: 1.4; background-color: #f3f3f3; color: #333333; padding: 12px; border-radius: 3px; overflow: auto; word-break: normal; word-wrap: normal; margin: 16px 0 16px 0; }
+    @media only screen and (min-device-pixel-ratio:2), only screen and (min-resolution:2dppx), only screen and (-webkit-min-device-pixel-ratio:2) {
+    .post .content a, .post p a:visited, .post p a:link, .post p a:active { background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 25%, rgba(0, 0, 0, 0) 25%); }
+    .post .content code a, .post code a:visited, .post code a:link, .post code a:active { background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 25%, rgba(0, 0, 0, 0) 25%); }
+    }
+    @media all and (max-width: 767px) {
+    .post { margin-right: 20px; margin-left: 20px; }
+    .post h1 { font-size: 28px; line-height: 1.3; margin-left: -1.75px; letter-spacing: -0.05em; margin-bottom: 8px; }
+    .post h2 { font-size: 22px; line-height: 1.3; margin-left: -1.75px; letter-spacing: -0.05em; margin-bottom: 8px; }
+    .post h3 { font-size: 18px; line-height: 1.3; margin-left: -1.75px; letter-spacing: -0.05em; margin-bottom: 8px; }
+    .post .content { font-size: 16px; line-height: 1.8; letter-spacing: -0.004em; }
+    .post .content p { margin: 8px 0 14px 0; }
+    .post .content p a, .post p a:visited, .post p a:link, .post p a:active { background-position: 0 19px; }
+    .post .content code { font-size: 14px; }
+    }
+    </style>
+    </head>
+    <body>
+    <div class='post'>
+    <div class='header'>
+    </div><h1> General Elections Since 1945 </h1>
+    <div class='content'>
+
+    <style>
+    text { fill: #888; }
+    svg { font-size: 9px; }
+    .element circle { stroke-width: 0.5px; stroke: #444; stroke-opacity: 1; fill-opacity: 0.6; }
+    .element text { fill: #000; fill-opacity: 0.2; alignment-baseline: middle; }
+    .element:hover circle { stroke-width: 1px; stroke: #000; fill-opacity: 0.8; }
+    .element:hover text { fill: #000; fill-opacity: 0.5; }
+    .grid { fill: none; stroke: #000; stroke-opacity: 0.04; stroke-width: 0.5px; }
+    .origin { stroke: #aaa; stroke-opacity: 0.4; stroke-dasharray: 4 2; stroke-width: 0.75px; }
+    .axis path, .axis line { fill: none; stroke: #000; stroke-width: 0.25px; }
+    .axis text { font-family: "Merriweather Sans", Arial, sans-serif; font-size: 9px; }
+    .selection circle, .selection:hover circle { stroke: #000; stroke-width: 1.5px; fill-opacity: 1; }
+    .selection text, .selection:hover text { fill: #000; fill-opacity: 1; }
+    </style>
+    <svg id="chart" width="100%" viewBox="0 0 600 400" />
+    <p>
+    <select id="selector"><option value="Votes (M), Seats, Vote Swing, Seat Swing">Seats and Votes (M)</option><option value="Vote Swing, Seats, Seat Swing, Votes (M)">Seats and Vote Swing</option><option value="Seat Swing, Seats, Votes (M), Vote Swing">Seats and Seat Swing</option>
+    </select>
+    </p>
+    <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+    <script>
+    function MotionChart(element) {
+        this._selection = {};
+        this._radiusScale = d3.scaleSqrt();
+        this._element = d3.select(element);
+        this.reset();
+    };
+    MotionChart.prototype.reset = function () {
+        this.stopTransition();
+        this._element.selectAll("*").remove();
+        this._margin = { top: 5, right: 20, bottom: 80, left: 40 };
+        var size = this._element.attr("viewBox").split(" ").slice(2);
+        this._elementWidth = parseFloat(size[0]);
+        this._elementHeight = parseFloat(size[1]);
+        this._diagramWidth = this._elementWidth - this._margin.right - this._margin.left;
+        this._diagramHeight = this._elementHeight - this._margin.top - this._margin.bottom;
+        this.scale(d3.scaleLinear(), d3.scaleLinear(), null);
+    };
+    MotionChart.prototype.data = function(dataSource, label, x, y, radius, color) {
+        this._dataSource = JSON.parse(JSON.stringify(dataSource));
+        this._labelData = label;
+        this._xData = x;
+        this._yData = y;
+        this._radiusData = radius;
+        this._colorData = color;
+    }
+    MotionChart.prototype.time = function(start, end) {
+        this._startTime = start;
+        this._endTime = end;
+    }
+    MotionChart.prototype.scale = function(x, y, color) {
+        this._xScale = x;
+        this._xAxis = d3.axisBottom().scale(this._xScale);
+        this._yScale = y;
+        this._yAxis = d3.axisLeft().scale(this._yScale);
+        if (color) {
+            this._colorScale = color;
+        }
+    };
+    MotionChart.prototype.select = function (label) {
+        this._selection[label] = true;
+    };
+    MotionChart.prototype.startTransition = function () {
+        if (!this._diagram) {
+            this.draw();
+        }
+        this._timeSliderPlayButton.style("display", "none");
+        this._timeSliderHead.style("display", "block");
+        var startTime = this._startTime.getTime();
+        var endTime = this._endTime.getTime();
+        var currentTime = this._currentTime.getTime();
+        var duration = ((endTime - currentTime) * 30000) / (endTime - startTime);
+        var timeInterpolator = d3.interpolate(this._currentTime, this._endTime);
+        var self = this;
+        this._diagram.transition()
+            .duration(duration)
+            .ease(d3.easeLinear)
+            .tween("date", function () {
+                return function (t) {
+                    self.update(new Date(timeInterpolator(t)));
+                };
+            })
+            .on("end", function () {
+                self.stopTransition();
+            });
+    };
+    MotionChart.prototype.stopTransition = function () {
+        if (this._diagram) {
+            this._diagram.transition().duration(0);
+        }
+    };
+    MotionChart.prototype.draw = function () {
+        this.createScales();
+        this.createColorAxis();
+        this.createRadiusAxis();
+        this.createTimeSlider();
+        this._diagram = this._element.append("g").attr("transform", "translate(" + this._margin.left + "," + this._margin.top + ")");
+        this.createRules();
+        this.createItems();
+    };
+    MotionChart.prototype.createScales = function () {
+        var maxRadius = 20;
+        var maxLabelWidth = 40;
+        var xDomain = this.computeDomain(this._xData);
+        var yDomain = this.computeDomain(this._yData);
+        this._radiusDomain = this.computeDomain(this._radiusData);
+        this._colorDomain = this.computeDomain(this._colorData);
+        this.computeTimeDomain();
+        var xScale = this._xScale.domain(xDomain).range([1.5 * maxRadius, this._diagramWidth - (1.5 * maxRadius) - maxLabelWidth]);
+        this._xScale = this._xScale.domain([xScale.invert(0), xScale.invert(this._diagramWidth)]).range([0, this._diagramWidth]).clamp(true);
+        var yScale = this._yScale.domain(yDomain).range([1.5 * maxRadius, this._diagramHeight - (1.5 * maxRadius)]);
+        this._yScale = this._yScale.domain([yScale.invert(0), yScale.invert(this._diagramHeight)]).range([this._diagramHeight, 0]).clamp(true);
+        this._radiusScale = this._radiusScale.domain([0, this._radiusDomain[1]]).range([2, maxRadius]).clamp(true);
+        if (this._colorDomain) {
+            var gradient = [
+                { "stop": 0.0, "color": "#3e53ff" },
+                { "stop": 0.33, "color": "#2ff076" },
+                { "stop": 0.5, "color": "#d0ff2f" },
+                { "stop": 0.66, "color": "#ffff2f" },
+                { "stop": 1.0, "color": "#ff2f2f" }
+            ];
+            var linearGradient = this._element.append("defs").append("linearGradient").attr("id", "colorGradient").attr("x2", "1");
+            gradient.forEach(function (d) { linearGradient.append("stop").attr("offset", d["stop"]).attr("stop-color", d["color"]); });
+            var gradientStops = gradient.map(function (d) { return d["stop"]; });
+            var gradientColors = gradient.map(function (d) { return d["color"]; });
+            this._colorScale = d3.scaleLinear().domain(gradientStops.map(d3.scaleLinear().domain(this._colorDomain).invert)).range(gradientColors);
+        }
+        if (!this._colorScale) {
+            this._colorScale = d3.scale.category10();
+        }
+    };
+    MotionChart.prototype.createRules = function () {
+        var rules = this._diagram.append("g").classed("rules", true);
+        // x & y axis
+        rules.append("g")
+            .classed("axis", true)
+            .attr("transform", "translate(0," + this._diagramHeight + ")")
+            .call(this._xAxis.tickSize(2, 0, 2));
+        rules.append("g").classed("axis", true)
+            .call(this._yAxis.tickSize(2, 0, 2));
+        // grid lines
+        rules.append("g").classed("grid", true).attr("transform", "translate(0," + this._diagramHeight + ")")
+            .call(this._xAxis.tickSize(-this._diagramHeight, 0, -this._diagramHeight).tickFormat(function (value) { return ""; }));
+        rules.append("g").classed("grid", true)
+            .call(this._yAxis.tickSize(-this._diagramWidth, 0, -this._diagramWidth).tickFormat(function (value) { return ""; }));
+        rules.selectAll(".grid line")
+            .filter(function (d) { return d == 0; })
+            .classed("origin", true);
+        // add axis labels
+        rules.append("text").attr("text-anchor", "end").attr("x", this._diagramWidth - 3).attr("y", this._diagramHeight - 6).text(this._xData);
+        rules.append("text").attr("text-anchor", "end").attr("x", "-3").attr("y", 11).attr("transform", "rotate(-90)").text(this._yData);
+    };
+    MotionChart.prototype.createColorAxis = function () {
+        if (this._colorDomain) {
+            var w = this._diagramWidth * 0.25;
+            var x = this._margin.left;
+            var y = this._elementHeight - 30;
+            var colorScale = d3.scaleLinear().domain(this._colorDomain).range([0, w]);
+            var colorTicks = [0, 0.5, 1].map(d3.scaleLinear().domain(this._colorDomain).invert);
+            var colorAxis = d3.axisBottom().scale(colorScale).tickSize(2, 0, 2).tickValues(colorTicks);
+            var g = this._element.append("g").attr("transform", "translate(" + x + "," + y + ")");
+            g.append("g").classed("axis", true).attr("transform", "translate(0,9)").call(colorAxis);
+            g.append("rect").attr("y", -3).attr("width", w).attr("height", 10).style("fill", "url(#colorGradient)");
+            g.append("text").attr("text-anchor", "start").attr("dy", -8).text(this._colorData);
+        }
+    };
+    MotionChart.prototype.createRadiusAxis = function () {
+        var w = this._diagramWidth * 0.25;
+        var x = this._margin.left + ((this._colorDomain) ? (0.32 * this._diagramWidth) : 0);
+        var y = this._elementHeight - 30;
+        var radiusScale = d3.scaleLinear().domain([0, this._radiusDomain[1]]).range([0, w]);
+        var radiusTicks = [0, 0.5, 1].map(d3.scaleLinear().domain([0, this._radiusDomain[1]]).invert);
+        var radiusAxis = d3.axisBottom().scale(radiusScale).tickSize(2, 0, 2).tickValues(radiusTicks);
+        var g = this._element.append("g").attr("transform", "translate(" + x + "," + y + ")");
+        g.append("g").classed("axis", true).attr("transform", "translate(0,9)").call(radiusAxis);
+        for (var i = 0; i < 5; i++) {
+            g.append("circle").attr("cx", (i * w) / 4).attr("cy", 2).attr("r", i + 1).style("fill", "#888");
+        }
+        g.append("text").attr("text-anchor", "start").attr("dy", -8).text(this._radiusData);
+    };
+    MotionChart.prototype.createTimeSlider = function () {
+        var width = this._elementWidth;
+        var w = this._diagramWidth * (this._colorDomain ? 0.32 : 0.64);
+        var x = width - this._margin.right - w;
+        var y = this._elementHeight - 30;
+        this._timeScale = d3.scaleTime().domain([this._startTime, this._endTime]).range([0, w]).clamp(true);
+        ;
+        var ticks = this._colorDomain ? [0, 0.25, 0.5, 0.75, 1] : [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1];
+        ticks = ticks.map(d3.scaleLinear().domain([this._startTime, this._endTime]).invert);
+        var timeTicks = [];
+        for (var i = 0; i < ticks.length; i++) {
+            timeTicks[i] = new Date(ticks[i]);
+        }
+        var timeAxis = d3.axisBottom().scale(this._timeScale)
+            .tickSize(11, 0, 11)
+            .tickValues(timeTicks)
+            .tickFormat(function (value) { return value.getFullYear(); });
+        var g = this._element.append("g").attr("transform", "translate(" + x + "," + y + ")");
+        var self = this;
+        g.append("g").classed("axis", true).call(timeAxis);
+        var rect = function () { return g.append("rect").attr("rx", 2).attr("ry", 2).attr("y", -1).attr("x", -3).attr("height", 6); };
+        rect().attr("width", w + 6).style("fill", "#fff");
+        this._timeSlider = rect().style("fill", "#ddd");
+        rect().attr("width", w + 6).style("fill", "none").style("stroke", "#888");
+        this._timeSliderPosition = g.append("g");
+        this._timeSliderPosition.append("line").attr("y2", -8).style("stroke", "#888");
+        this._timeSliderPosition.append("text").attr("y", -10).attr("text-anchor", "middle");
+        this._timeSliderHead = g.append("g").attr("pointer-events", "all").attr("cursor", "ew-resize");
+        this._timeSliderHead.append("circle").attr("cy", 2).attr("r", 4).style("fill", "none").style("stroke", "#888").style("stroke-width", "5.5px");
+        this._timeSliderHead.append("circle").attr("cy", 2).attr("r", 20).style("fill", "none").style("opacity", 1);
+        this._timeSliderHead.style("display", "none");
+        this._timeSliderHead.call(d3.drag()
+            .on("start", function () {
+            self._timeSliderDragged = false;
+        })
+            .on("drag", function () {
+            self._timeSliderDragged = true;
+            self.stopTransition();
+            var date = self._timeScale.invert(d3.event.x);
+            self.update(date);
+        })
+            .on("end", function () {
+            if (self._timeSliderDragged && (self._endTime.getTime() - self._currentTime.getTime()) > 0) {
+                self._timeSliderPlayButton.style("display", "block");
+                self._timeSliderHead.style("display", "none");
+            }
+        }));
+        this._timeSliderPlayButton = g.append("g").attr("transform", "translate(0,2)").attr("pointer-events", "all").attr("cursor", "pointer");
+        this._timeSliderPlayButton.append("circle").attr("cy", 0).attr("r", 6).style("fill", "#fff").style("stroke", "#888");
+        this._timeSliderPlayButton.append("circle").attr("cy", 0).attr("r", 20).style("fill", "none").style("opacity", 1);
+        this._timeSliderPlayButton.append("polygon").attr("points", "-2,-3 -2,3 4,0").style("fill", "#888");
+        this._timeSliderPlayButton
+            .on("click", function () {
+            self.startTransition();
+        });
+    };
+    MotionChart.prototype.updateTimeSlider = function (date) {
+        var x = this._timeScale(date);
+        this._timeSlider.attr("width", x + 6);
+        this._timeSliderHead.attr("transform", "translate(" + x + ",0)");
+        this._timeSliderPosition.attr("transform", "translate(" + x + ",0)");
+        this._timeSliderPosition.selectAll("text").text(date.getFullYear());
+        this._timeSliderPlayButton.attr("transform", "translate(" + x + ",2)");
+        if ((this._endTime.getTime() - date.getTime()) <= 0) {
+            this._timeSliderHead.style("display", "block");
+            this._timeSliderPlayButton.style("display", "none");
+        }
+    };
+    MotionChart.prototype.createItems = function () {
+        var self = this;
+        this._items = this._diagram.append("g").selectAll(".item")
+            .data(this._dataSource)
+            .enter()
+            .append("g")
+            .classed("element", true)
+            .each(function (item) {
+                var label = item[self._labelData];
+                var g = d3.select(this);
+                g.classed("selection", self._selection[label]);
+                g.append("text").classed("label", true).attr("y", 1).text(label);
+                g.append("circle");
+            })
+            .on("click", function () {
+                d3.select(this).classed("selection", !d3.select(this).classed("selection"));
+            });
+        this.update(this._startTime);
+    };
+    MotionChart.prototype.computeDomain = function (axis) {
+        var self = this;
+        var hasValue = true;
+        self._dataSource.forEach(function (item) {
+            if (!(item[axis] instanceof Array) || (typeof item[axis] == "number")) {
+                console.log("UGH");
+            }
+            hasValue = hasValue && (item[axis] instanceof Array) || (typeof item[axis] == "number");
+        });
+        if (!hasValue) {
+            return null;
+        }
+        var min = d3.min(this._dataSource, function (item) { return (typeof item[axis] == "number") ? item[axis] : d3.min(item[axis], function (pair) { return pair[1]; }); });
+        var max = d3.max(this._dataSource, function (item) { return (typeof item[axis] == "number") ? item[axis] : d3.max(item[axis], function (pair) { return pair[1]; }); });
+        self._dataSource.forEach(function (item) {
+            // Convert time series into a multi-value D3 scale and cache time range.
+            if (item[axis] instanceof Array) {
+                var dates = item[axis].map(function (d) { return d[0]; }).map(function (date) { return self.createDate(date); });
+                var values = item[axis].map(function (d) { return d[1]; });
+                if (self._endTime && dates[dates.length - 1] < self._endTime) {
+                    dates.push(self._endTime);
+                    values.push(values[values.length - 1]);
+                }
+                item[axis] = d3.scaleTime().domain(dates).range(values);
+                item[axis]["__min"] = dates[0];
+                item[axis]["__max"] = dates[dates.length - 1];
+            }
+        });
+        return [min, max];
+    };
+    MotionChart.prototype.createDate = function (date) {
+        if (typeof date == "number") {
+            return new Date(date, 0, 1);
+        }
+        if (typeof date == "string") {
+            return new Date(date);
+        }
+        return date;
+    };
+    MotionChart.prototype.computeTimeDomain = function () {
+        var self = this;
+        var startTime = this._startTime;
+        var endTime = this._endTime;
+        var axes = [self._xData, self._yData, self._radiusData, self._colorData];
+        axes.forEach(function (axis) {
+            self._dataSource.forEach(function (item) {
+                var data = item[axis];
+                if (!(typeof data == "number") && !(typeof data == "string")) {
+                    data.domain().forEach(function (value) {
+                        if (!self._startTime && (!startTime || startTime > value)) {
+                            startTime = value;
+                        }
+                        if (!self._endTime && (!endTime || endTime < value)) {
+                            endTime = value;
+                        }
+                    });
+                }
+            });
+        });
+        this._startTime = startTime;
+        this._endTime = endTime;
+    };
+    MotionChart.prototype.hasValue = function (item, axis, date) {
+        var data = item[axis];
+        if ((typeof data == "number") || (typeof data == "string")) {
+            return true;
+        }
+        return (date >= data["__min"] && date <= data["__max"]);
+    };
+    MotionChart.prototype.computeValue = function (item, axis, date) {
+        var data = item[axis];
+        if (!!data && data.constructor && data.call && data.apply) {
+            return data(date);
+        }
+        return data;
+    };
+    MotionChart.prototype.update = function (date) {
+        this._currentTime = date;
+        this.updateTimeSlider(date);
+        var self = this;
+        this._items.each(function (data) {
+            if (self.hasValue(data, self._xData, date) &&
+                self.hasValue(data, self._yData, date) &&
+                self.hasValue(data, self._radiusData, date)) {
+                var x = self._xScale(self.computeValue(data, self._xData, date));
+                var y = self._yScale(self.computeValue(data, self._yData, date));
+                var r = self.computeValue(data, self._radiusData, date);
+                var radius = self._radiusScale((r < 0) ? 0 : r);
+                var color = self.hasValue(data, self._colorData, date) ? self._colorScale(self.computeValue(data, self._colorData, date)) : "#fff";
+                var textPosition = 1 + (1.1 * radius);
+                d3.select(this).style("display", "block");
+                d3.select(this).attr("transform", "translate(" + x + "," + y + ")");
+                d3.select(this).selectAll("circle").attr("r", radius).style("fill", color);
+                d3.select(this).selectAll("text").attr("transform", "translate(" + textPosition + ",0)");
+            }
+            else {
+                d3.select(this).style("display", "none");
+            }
+        });
+        this._items.sort(function (a, b) {
+            return b[self._radiusData] - a[self._radiusData];
+        });
+    };
+    var data = [{'Name': 'Labour', 'Votes (M)': [['1945/07/05', 11.967], ['1950/02/23', 13.266], ['1951/10/25', 13.948], ['1955/05/26', 12.405], ['1959/10/08', 12.216], ['1964/10/15', 12.205], ['1966/03/31', 13.096], ['1970/06/18', 12.208], ['1974/02/28', 11.645], ['1974/10/10', 11.457], ['1979/05/03', 11.532], ['1983/06/09', 8.456], ['1987/06/11', 10.029], ['1992/04/09', 11.56], ['1997/05/01', 13.518], ['2001/06/07', 10.724], ['2005/05/05', 9.552], ['2010/05/06', 8.609], ['2015/05/07', 9.347], ['2017/06/08', 12.877]], 'Seats': [['1945/07/05', 393.0], ['1950/02/23', 315.0], ['1951/10/25', 295], ['1955/05/26', 277.0], ['1959/10/08', 258.0], ['1964/10/15', 317.0], ['1966/03/31', 364.0], ['1970/06/18', 288.0], ['1974/02/28', 301.0], ['1974/10/10', 319.0], ['1979/05/03', 269.0], ['1983/06/09', 209.0], ['1987/06/11', 229.0], ['1992/04/09', 271.0], ['1997/05/01', 418.0], ['2001/06/07', 413.0], ['2005/05/05', 355.0], ['2010/05/06', 258.0], ['2015/05/07', 232.0], ['2017/06/08', 262.0]], 'Vote Swing': [['1945/07/05', 9.7], ['1950/02/23', -1.6], ['1951/10/25', -1.5], ['1955/05/26', -2.4], ['1959/10/08', -1.2], ['1964/10/15', 2.0], ['1966/03/31', 1.0], ['1970/06/18', -4.9], ['1974/02/28', -5.9], ['1974/10/10', 2.0], ['1979/05/03', -2.3], ['1983/06/09', -9.3], ['1987/06/11', 3.2], ['1992/04/09', 3.6], ['1997/05/01', 8.8], ['2001/06/07', -2.5], ['2005/05/05', -5.5], ['2010/05/06', -6.2], ['2015/05/07', 1.5], ['2017/06/08', 9.6]], 'Seat Swing': [['1945/07/05', 239.0], ['1950/02/23', -78.0], ['1951/10/25', -20], ['1955/05/26', -18], ['1959/10/08', -19], ['1964/10/15', 59.0], ['1966/03/31', 48.0], ['1970/06/18', -75], ['1974/02/28', 20.0], ['1974/10/10', 18.0], ['1979/05/03', -50.0], ['1983/06/09', -51.0], ['1987/06/11', 20.0], ['1992/04/09', 42.0], ['1997/05/01', 146.0], ['2001/06/07', -6.0], ['2005/05/05', -47.0], ['2010/05/06', -91.0], ['2015/05/07', -26], ['2017/06/08', 30]]}, {'Name': 'Conservative', 'Votes (M)': [['1945/07/05', 8.716], ['1950/02/23', 12.492], ['1951/10/25', 13.717], ['1955/05/26', 13.31], ['1959/10/08', 13.75], ['1964/10/15', 12.002], ['1966/03/31', 11.418], ['1970/06/18', 13.145], ['1974/02/28', 11.872], ['1974/10/10', 10.462], ['1979/05/03', 13.697], ['1983/06/09', 13.012], ['1987/06/11', 13.76], ['1992/04/09', 14.093], ['1997/05/01', 9.6], ['2001/06/07', 8.357], ['2005/05/05', 8.7484], ['2010/05/06', 10.703], ['2015/05/07', 11.299], ['2017/06/08', 13.636]], 'Seats': [['1945/07/05', 197.0], ['1950/02/23', 298.0], ['1951/10/25', 321.0], ['1955/05/26', 345], ['1959/10/08', 365.0], ['1964/10/15', 304.0], ['1966/03/31', 253.0], ['1970/06/18', 330.0], ['1974/02/28', 297.0], ['1974/10/10', 277.0], ['1979/05/03', 339.0], ['1983/06/09', 397.0], ['1987/06/11', 376.0], ['1992/04/09', 336.0], ['1997/05/01', 165.0], ['2001/06/07', 166.0], ['2005/05/05', 198.0], ['2010/05/06', 306.0], ['2015/05/07', 330.0], ['2017/06/08', 317]], 'Vote Swing': [['1945/07/05', -11.6], ['1950/02/23', 4.3], ['1951/10/25', 4.5], ['1955/05/26', 1.7], ['1959/10/08', 2.5], ['1964/10/15', -4.0], ['1966/03/31', -1.5], ['1970/06/18', 4.5], ['1974/02/28', -8.5], ['1974/10/10', -2.1], ['1979/05/03', 8.1], ['1983/06/09', -1.5], ['1987/06/11', -0.2], ['1992/04/09', -0.3], ['1997/05/01', -11.2], ['2001/06/07', 1.0], ['2005/05/05', 0.7], ['2010/05/06', 3.7], ['2015/05/07', 0.7], ['2017/06/08', 5.5]], 'Seat Swing': [['1945/07/05', -190.0], ['1950/02/23', 90.0], ['1951/10/25', 22.0], ['1955/05/26', 23.0], ['1959/10/08', 20.0], ['1964/10/15', -61], ['1966/03/31', -52], ['1970/06/18', 77], ['1974/02/28', -37.0], ['1974/10/10', -20.0], ['1979/05/03', 63.0], ['1983/06/09', 37.0], ['1987/06/11', -21.0], ['1992/04/09', -41.0], ['1997/05/01', -178.0], ['2001/06/07', 1.0], ['2005/05/05', 33.0], ['2010/05/06', 97.0], ['2015/05/07', 24.0], ['2017/06/08', -13]]}, {'Name': 'Liberal', 'Votes (M)': [['1945/07/05', 2.17], ['1950/02/23', 2.62], ['1951/10/25', 0.73], ['1955/05/26', 0.722], ['1959/10/08', 1.64], ['1964/10/15', 3.099], ['1966/03/31', 2.327], ['1970/06/18', 2.117], ['1974/02/28', 6.059], ['1974/10/10', 5.346], ['1979/05/03', 4.313], ['1983/06/09', 7.794], ['1987/06/11', 7.341], ['1992/04/09', 5.999], ['1997/05/01', 5.242], ['2001/06/07', 4.814], ['2005/05/05', 5.985], ['2010/05/06', 6.836], ['2015/05/07', 2.415], ['2017/06/08', 2.371]], 'Seats': [['1945/07/05', 12.0], ['1950/02/23', 9.0], ['1951/10/25', 6.0], ['1955/05/26', 6.0], ['1959/10/08', 6.0], ['1964/10/15', 9.0], ['1966/03/31', 12.0], ['1970/06/18', 6.0], ['1974/02/28', 14.0], ['1974/10/10', 13.0], ['1979/05/03', 11.0], ['1983/06/09', 23.0], ['1987/06/11', 22.0], ['1992/04/09', 20.0], ['1997/05/01', 46.0], ['2001/06/07', 52.0], ['2005/05/05', 62.0], ['2010/05/06', 57.0], ['2015/05/07', 8.0], ['2017/06/08', 12]], 'Vote Swing': [['1945/07/05', 2.3], ['1950/02/23', 0.1], ['1951/10/25', -7.0], ['1955/05/26', 0.2], ['1959/10/08', 4.0], ['1964/10/15', 3.2], ['1966/03/31', -1.0], ['1970/06/18', -1.0], ['1974/02/28', 11.8], ['1974/10/10', -1.0], ['1979/05/03', -4.5], ['1983/06/09', 11.6], ['1987/06/11', -2.8], ['1992/04/09', -4.8], ['1997/05/01', -1.0], ['2001/06/07', 1.5], ['2005/05/05', 3.8], ['2010/05/06', 1.0], ['2015/05/07', -15.1], ['2017/06/08', -0.5]], 'Seat Swing': [['1945/07/05', -9.0], ['1950/02/23', 3.0], ['1951/10/25', -3], ['1955/05/26', 0.0], ['1959/10/08', 1.0], ['1964/10/15', 5.0], ['1966/03/31', 3.0], ['1970/06/18', -6.0], ['1974/02/28', 8.0], ['1974/10/10', -1.0], ['1979/05/03', -2.0], ['1983/06/09', 12], ['1987/06/11', -1.0], ['1992/04/09', -2.0], ['1997/05/01', 28.0], ['2001/06/07', 6.0], ['2005/05/05', 11.0], ['2010/05/06', -5.0], ['2015/05/07', -49.0], ['2017/06/08', 4]]}, {'Name': 'Communist', 'Votes (M)': [['1945/07/05', 0.097], ['1950/02/23', 0.091], ['1951/10/25', 0.002], ['1955/05/26', 0.033], ['1959/10/08', 0.03], ['1964/10/15', 0.046], ['1966/03/31', 0.062], ['1970/06/18', 0.03], ['1974/02/28', 0.03], ['1974/10/10', 0.017], ['1979/05/03', 0.002], ['1983/06/09', 0.001]], 'Seats': [['1945/07/05', 2.0], ['1950/02/23', 0.0], ['1951/10/25', 0.0], ['1955/05/26', 0.0], ['1959/10/08', 0.0], ['1964/10/15', 0.0], ['1966/03/31', 0.0], ['1970/06/18', 0.0], ['1974/02/28', 0.0], ['1974/10/10', 0.0], ['1979/05/03', 0.0], ['1983/06/09', 0.0]], 'Vote Swing': [['1945/07/05', 0.3], ['1950/02/23', -0.1], ['1951/10/25', 0.0], ['1955/05/26', 0.0], ['1959/10/08', 0.0], ['1964/10/15', 0.0], ['1966/03/31', 0.0], ['1970/06/18', -0.1], ['1974/02/28', 0.0], ['1974/10/10', 0.0], ['1979/05/03', 0.0], ['1983/06/09', 0.0]], 'Seat Swing': [['1945/07/05', 1.0], ['1950/02/23', -2.0], ['1951/10/25', 0.0], ['1955/05/26', 0.0], ['1959/10/08', 0.0], ['1964/10/15', 0.0], ['1966/03/31', 0, 0], ['1970/06/18', 0.0], ['1974/02/28', 0.0], ['1974/10/10', 0.0], ['1979/05/03', 0.0], ['1983/06/09', 0.0]]}, {'Name': 'Nationalist', 'Votes (M)': [['1945/07/05', 0.092], ['1950/02/23', 0.065]], 'Seats': [['1945/07/05', 2.0], ['1950/02/23', 2.0]], 'Vote Swing': [['1945/07/05', 0.2], ['1950/02/23', -0.2]], 'Seat Swing': [['1945/07/05', 0.0], ['1950/02/23', 0.0]]}, {'Name': 'SNP', 'Votes (M)': [['1945/07/05', 0.026], ['1950/02/23', 0.009], ['1951/10/25', 0.0007], ['1955/05/26', 0.001], ['1959/10/08', 0.002], ['1964/10/15', 0.064], ['1966/03/31', 0.128], ['1970/06/18', 0.306], ['1974/02/28', 0.633], ['1974/10/10', 0.839], ['1979/05/03', 0.504], ['1983/06/09', 0.331], ['1987/06/11', 0.416], ['1992/04/09', 0.629], ['1997/05/01', 0.621], ['2001/06/07', 0.464], ['2005/05/05', 0.412], ['2010/05/06', 0.491], ['2015/05/07', 1.452], ['2017/06/08', 0.977]], 'Seats': [['1945/07/05', 0.0], ['1950/02/23', 0.0], ['1951/10/25', 0.0], ['1955/05/26', 0.0], ['1959/10/08', 0.0], ['1964/10/15', 0.0], ['1966/03/31', 0.0], ['1970/06/18', 1.0], ['1974/02/28', 7.0], ['1974/10/10', 11.0], ['1979/05/03', 2.0], ['1983/06/09', 2.0], ['1987/06/11', 3.0], ['1992/04/09', 3.0], ['1997/05/01', 6.0], ['2001/06/07', 5.0], ['2005/05/05', 6.0], ['2010/05/06', 6.0], ['2015/05/07', 56.0], ['2017/06/08', 35]], 'Vote Swing': [['1945/07/05', -0.1], ['1950/02/23', -0.1], ['1951/10/25', 0.0], ['1955/05/26', 0.0], ['1959/10/08', 0.0], ['1964/10/15', 0.0], ['1966/03/31', 0.5], ['1970/06/18', 0.6], ['1974/02/28', 6.0], ['1974/10/10', 0.9], ['1979/05/03', -9.0], ['1983/06/09', -0.5], ['1987/06/11', 0.2], ['1992/04/09', 0.6], ['1997/05/01', 0.1], ['2001/06/07', -0.2], ['2005/05/05', -0.2], ['2010/05/06', 0.1], ['2015/05/07', 3.1], ['2017/06/08', -1.7]], 'Seat Swing': [['1945/07/05', 0.0], ['1950/02/23', 0.0], ['1951/10/25', 0.0], ['1955/05/26', 0.0], ['1959/10/08', 0.0], ['1964/10/15', 0.5], ['1966/03/31', 0.0], ['1970/06/18', 1.0], ['1974/02/28', 0.9], ['1974/10/10', 4.0], ['1979/05/03', -1.3], ['1983/06/09', 0.0], ['1987/06/11', 1.0], ['1992/04/09', 0.0], ['1997/05/01', 3.0], ['2001/06/07', -1.0], ['2005/05/05', 2.0], ['2010/05/06', 0.0], ['2015/05/07', 50.0], ['2017/06/08', -21]]}, {'Name': 'Plaid Cymru', 'Votes (M)': [['1945/07/05', 0.016], ['1950/02/23', 0.002], ['1951/10/25', 0.01], ['1955/05/26', 0.077], ['1964/10/15', 0.069], ['1966/03/31', 0.061], ['1970/06/18', 0.175], ['1974/02/28', 0.171], ['1974/10/10', 0.166], ['1979/05/03', 0.132], ['1983/06/09', 0.125], ['1987/06/11', 0.123], ['1992/04/09', 0.156], ['1997/05/01', 0.161], ['2001/06/07', 0.195], ['2005/05/05', 0.058], ['2010/05/06', 0.165], ['2015/05/07', 0.181], ['2017/06/08', 0.164]], 'Seats': [['1945/07/05', 0.0], ['1950/02/23', 0.0], ['1951/10/25', 0.0], ['1955/05/26', 0.0], ['1964/10/15', 0.0], ['1966/03/31', 0.0], ['1970/06/18', 0.0], ['1974/02/28', 2.0], ['1974/10/10', 3.0], ['1979/05/03', 2.0], ['1983/06/09', 2.0], ['1987/06/11', 3.0], ['1992/04/09', 4.0], ['1997/05/01', 4.0], ['2001/06/07', 4.0], ['2005/05/05', 3.0], ['2010/05/06', 3.0], ['2015/05/07', 3.0], ['2017/06/08', 4]], 'Vote Swing': [['1945/07/05', 0.0], ['1950/02/23', -0.1], ['1951/10/25', 0.0], ['1955/05/26', 0.2], ['1964/10/15', 0.0], ['1966/03/31', 0.0], ['1970/06/18', 0.4], ['1974/02/28', -0.1], ['1974/10/10', 0.1], ['1979/05/03', 0.2], ['1983/06/09', 0.0], ['1987/06/11', 0.0], ['1992/04/09', 0.1], ['1997/05/01', 0.0], ['2001/06/07', 0.2], ['2005/05/05', -0.1], ['2010/05/06', -0.1], ['2015/05/07', 0], ['2017/06/08', -0.1]], 'Seat Swing': [['1945/07/05', 0.0], ['1950/02/23', 0.0], ['1951/10/25', 0.0], ['1955/05/26', 0.0], ['1964/10/15', 0.0], ['1966/03/31', 0.0], ['1970/06/18', 0.0], ['1974/02/28', 2.0], ['1974/10/10', 1.0], ['1979/05/03', -1.0], ['1983/06/09', 0.0], ['1987/06/11', 1.0], ['1992/04/09', 1.0], ['1997/05/01', 0.0], ['2001/06/07', 0.0], ['2005/05/05', -1.0], ['2010/05/06', 0.0], ['2015/05/07', 0.0], ['2017/06/08', 1.0]]}, {'Name': 'Sinn Féin', 'Votes (M)': [['1950/02/23', 0.002], ['1955/05/26', 0.15], ['1959/10/08', 0.063], ['1983/06/09', 0.102], ['1987/06/11', 0.083], ['1992/04/09', 0.078], ['1997/05/01', 0.126], ['2001/06/07', 0.175], ['2005/05/05', 0.174], ['2010/05/06', 0.171], ['2015/05/07', 0.176], ['2017/06/08', 0.239]], 'Seats': [['1950/02/23', 0.0], ['1955/05/26', 2.0], ['1959/10/08', 0.0], ['1983/06/09', 1.0], ['1987/06/11', 1.0], ['1992/04/09', 0.0], ['1997/05/01', 2.0], ['2001/06/07', 4.0], ['2005/05/05', 5.0], ['2010/05/06', 5.0], ['2015/05/07', 4.0], ['2017/06/08', 7]], 'Vote Swing': [['1950/02/23', 0.0], ['1955/05/26', 0.5], ['1959/10/08', -0.2], ['1983/06/09', 0.0], ['1987/06/11', 0.0], ['1992/04/09', -0.1], ['1997/05/01', 0.0], ['2001/06/07', 0.3], ['2005/05/05', -0.1], ['2010/05/06', -0.1], ['2015/05/07', 0.0], ['2017/06/08', 0.1]], 'Seat Swing': [['1950/02/23', 0.0], ['1955/05/26', 2.0], ['1959/10/08', -2.0], ['1983/06/09', 0.0], ['1987/06/11', 0.0], ['1992/04/09', -1.0], ['1997/05/01', 2.0], ['2001/06/07', 2.0], ['2005/05/05', 1.0], ['2010/05/06', 0.0], ['2015/05/07', -1.0], ['2017/06/08', 3]]}, {'Name': 'UUP', 'Votes (M)': [['1974/02/28', 0.232], ['1974/10/10', 0.256], ['1979/05/03', 0.254], ['1983/06/09', 0.259], ['1987/06/11', 0.276], ['1992/04/09', 0.271], ['1997/05/01', 0.258], ['2001/06/07', 0.216], ['2005/05/05', 0.127], ['2015/05/07', 0.115], ['2017/06/08', 0.083]], 'Seats': [['1974/02/28', 7.0], ['1974/10/10', 7.0], ['1979/05/03', 5.0], ['1983/06/09', 11.0], ['1987/06/11', 9.0], ['1992/04/09', 9.0], ['1997/05/01', 10.0], ['2001/06/07', 6.0], ['2005/05/05', 1.0], ['2015/05/07', 2.0], ['2017/06/08', 0]], 'Vote Swing': [['1974/02/28', 0.0], ['1974/10/10', 0.1], ['1979/05/03', -0.1], ['1983/06/09', 0.0], ['1987/06/11', 0.0], ['1992/04/09', 0.0], ['1997/05/01', 0.0], ['2001/06/07', 0.0], ['2005/05/05', -0.3], ['2015/05/07', 0.0], ['2017/06/08', -0.1]], 'Seat Swing': [['1974/02/28', 7.0], ['1974/10/10', 0.0], ['1979/05/03', -1.0], ['1983/06/09', 2.0], ['1987/06/11', -2.0], ['1992/04/09', 0.0], ['1997/05/01', 1.0], ['2001/06/07', -4.0], ['2005/05/05', -5.0], ['2015/05/07', 2.0], ['2017/06/08', -2.0]]}, {'Name': 'DUP', 'Votes (M)': [['1979/05/03', 0.07], ['1983/06/09', 0.152], ['1987/06/11', 0.085], ['1992/04/09', 0.103], ['1997/05/01', 0.107], ['2001/06/07', 0.181], ['2005/05/05', 0.241], ['2010/05/06', 0.168], ['2015/05/07', 0.184], ['2017/06/08', 0.292]], 'Seats': [['1979/05/03', 3.0], ['1983/06/09', 3.0], ['1987/06/11', 3.0], ['1992/04/09', 3.0], ['1997/05/01', 2.0], ['2001/06/07', 5.0], ['2005/05/05', 9.0], ['2010/05/06', 8.0], ['2015/05/07', 8.0], ['2017/06/08', 10]], 'Vote Swing': [['1979/05/03', -0.1], ['1983/06/09', 0.3], ['1987/06/11', -0.2], ['1992/04/09', 0.0], ['1997/05/01', 0.0], ['2001/06/07', 0.4], ['2005/05/05', 0.2], ['2010/05/06', -0.3], ['2015/05/07', 0.0], ['2017/06/08', 0.3]], 'Seat Swing': [['1979/05/03', 2.0], ['1983/06/09', 1], ['1987/06/11', 0.0], ['1992/04/09', 0.0], ['1997/05/01', -1.0], ['2001/06/07', 3.0], ['2005/05/05', 4.0], ['2010/05/06', -1.0], ['2015/05/07', 0.0], ['2017/06/08', 2]]}, {'Name': 'Green', 'Votes (M)': [['1987/06/11', 0.089], ['1992/04/09', 0.17], ['1997/05/01', 0.067], ['2001/06/07', 0.166], ['2005/05/05', 0.257], ['2010/05/06', 0.265], ['2015/05/07', 1.111], ['2017/06/08', 0.512]], 'Seats': [['1987/06/11', 0.0], ['1992/04/09', 0.0], ['1997/05/01', 0.0], ['2001/06/07', 0.0], ['2005/05/05', 0.0], ['2010/05/06', 1.0], ['2015/05/07', 1.0], ['2017/06/08', 1.0]], 'Vote Swing': [['1987/06/11', 0.0], ['1992/04/09', 0.0], ['1997/05/01', -0.2], ['2001/06/07', 0.3], ['2005/05/05', 0.4], ['2010/05/06', -0.2], ['2015/05/07', 2.7], ['2017/06/08', -2.0]], 'Seat Swing': [['1987/06/11', 0.0], ['1992/04/09', 0.0], ['1997/05/01', 0.0], ['2001/06/07', 0.0], ['2005/05/05', 0.0], ['2010/05/06', 1.0], ['2015/05/07', 0.0], ['2017/06/08', 0.0]]}, {'Name': 'BNP', 'Votes (M)': [['1997/05/01', 0.035], ['2001/06/07', 0.047], ['2005/05/05', 0.192], ['2010/05/06', 0.564]], 'Seats': [['1997/05/01', 0.0], ['2001/06/07', 0.0], ['2005/05/05', 0.0], ['2010/05/06', 0.0]], 'Vote Swing': [['1997/05/01', -0.2], ['2001/06/07', 0.1], ['2005/05/05', 0.2], ['2010/05/06', 1.2]], 'Seat Swing': [['1997/05/01', 0.0], ['2001/06/07', 0.0], ['2005/05/05', 0.0], ['2010/05/06', 0.0]]}, {'Name': 'UKIP', 'Votes (M)': [['1997/05/01', 0.105], ['2001/06/07', 0.39], ['2005/05/05', 0.605], ['2010/05/06', 0.919], ['2015/05/07', 3.881], ['2017/06/08', 0.594]], 'Seats': [['1997/05/01', 0.0], ['2001/06/07', 0.0], ['2005/05/05', 0.0], ['2010/05/06', 0.0], ['2015/05/07', 1.0], ['2017/06/08', 0.0]], 'Vote Swing': [['1997/05/01', 0.0], ['2001/06/07', 1.2], ['2005/05/05', 0.8], ['2010/05/06', 0.9], ['2015/05/07', 9.5], ['2017/06/08', -10.8]], 'Seat Swing': [['1997/05/01', 0.0], ['2001/06/07', 0.0], ['2005/05/05', 0.0], ['2010/05/06', 0.0], ['2015/05/07', 1.0], ['2017/06/08', -1.0]]}] ;
+
+
+    var selector = document.getElementById("selector");
+    var chart = new MotionChart(document.getElementById("chart"));
+    function update() {
+        var axes = selector.options[selector.selectedIndex].value.split(",").map(function (text) { return text.trim(); });
+        chart.reset();
+        chart.data(data, "Name", axes[0], axes[1], axes[2], axes[3]);
+        chart.time(new Date("1945/07/05"), new Date("2017/06/08"));
+        chart.select("Labour");
+        chart.select("Conservative");
+        chart.select("SNP");
+        chart.select("UKIP");
+        chart.select("DUP");
+        chart.select("Liberal");
+        chart.draw();
+        chart.startTransition();
+    }
+    update();
+    selector.addEventListener("change", function() {
+        update();
+    });
+    </script>
+
+    </div>
+    </div>
+    </body>
+    </html>
+
+    
